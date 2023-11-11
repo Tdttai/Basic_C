@@ -48,13 +48,13 @@ int main(){
     return 0;
 }
 ```
-`#include <stdio.h>` dùng để sử dụng các chức năng nhập, xuất trong ngôn ngữ C.
- `unsigned char var = 65;` khai báo biến var là kiểu ký tự có giá trị là 65 (giá trị nằm trong phạm vi biểu diễn 0->255).
- `int main()` hàm chính thực hiện các lệnh trong chương trình.
- `printf("size : %d\n byte", sizeof(var));` dùng để đọc kích thước của biến var.
- `printf("ky tu :%c\n",var);` xuất ký tự trong bảng mã ASCII.( kq : A ).
- `var+=100;` giá trị var thay đổi thành 66
- `printf("ky tu :%c\n",var);`  Xuất ký tự trong bảng mã ASCII ( kq : B).
+- `#include <stdio.h>` dùng để sử dụng các chức năng nhập, xuất trong ngôn ngữ C.
+- `unsigned char var = 65;` khai báo biến var là kiểu ký tự có giá trị là 65 (giá trị nằm trong phạm vi biểu diễn 0->255).
+- `int main()` hàm chính thực hiện các lệnh trong chương trình.
+- `printf("size : %d\n byte", sizeof(var));` dùng để đọc kích thước của biến var.
+- `printf("ky tu :%c\n",var);` xuất ký tự trong bảng mã ASCII.( kq : A ).
+- `var+=100;` giá trị var thay đổi thành 66
+- `printf("ky tu :%c\n",var);`  Xuất ký tự trong bảng mã ASCII ( kq : B).
 
 #### 2.Interger(Kiểu số nguyên):
 
