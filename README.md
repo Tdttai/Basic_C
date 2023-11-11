@@ -132,6 +132,7 @@ return_type function_name(parameter list) {
  - ***Thân hàm***: Phần thân hàm chứa một tập hợp các câu lệnh xác định chức năng của hàm.
 
 **Example**
+
 `Hàm PrintUserName có chức năng là in tên từ một mảng`
 ```C
  void PrintUserName(char* name)
