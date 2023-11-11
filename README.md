@@ -157,3 +157,5 @@ uint8_t a =2, b=5;
 
  }
 ```
+
+Thêm phần  if else switch case
