@@ -119,7 +119,7 @@ float normalizationFactor = 22.442e2;
 
 \- Một khai báo hàm cho trình biên dịch biết về tên, kiểu trả về và các tham số của hàm. Định nghĩa hàm cung cấp phần thân thực của hàm.
 
-Cấu trúc của một định nghĩa hàm:
+### 2.Cấu trúc của một định nghĩa hàm:
 
 ```c
 return_type function_name(parameter list) {
