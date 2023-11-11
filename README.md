@@ -111,3 +111,48 @@ float normalizationFactor = 22.442e2;
 |  unsigned long long | uint64_t  | 64  | Unsigned  | 0 .. 18,446,744,073,709,551,615  |
 | long long  | int64_t  | 64  | Signed  | -9,223,372,036,854,775,808 .. 9,223,372,036,854,775,807  |
 
+## Hàm
+
+### 1. Hàm là gì:
+
+\- Một hàm là một nhóm các câu lệnh cùng nhau thực hiện một nhiệm vụ. Mỗi chương trình C có ít nhất một hàm, là hàm main().
+
+\- Một khai báo hàm cho trình biên dịch biết về tên, kiểu trả về và các tham số của hàm. Định nghĩa hàm cung cấp phần thân thực của hàm.
+
+Cấu trúc của một định nghĩa hàm:
+
+```c
+return_type function_name(parameter list) {
+    // body of the function
+}
+```
+ - ***Kiểu trả về ( Return type)**: Một hàm có thể trả về một giá trị.Các `return type` là kiểu dữ liệu của giá trị hàm trả về. Một số hàm thực hiện các hoạt động mong muốn mà không trả về một giá trị. Trong trường hợp này, `return type` là từ khóa **void**.
+ - ***Tên hàm***: Đây là tên thực của hàm. Thường được đặt theo chức năng của hàm.
+ - ***Tham số***: Một tham số giống như một trình giữ chỗ. Khi một hàm được gọi, bạn chuyển một giá trị cho tham số. Giá trị này được gọi là tham số hoặc đối số thực tế. Danh sách tham số tham chiếu đến loại, thứ tự và số tham số của hàm. Các tham số là tùy chọn; có nghĩa là, một hàm có thể không chứa tham số.
+ - ***Thân hàm***: Phần thân hàm chứa một tập hợp các câu lệnh xác định chức năng của hàm.
+
+**Example**
+`Hàm PrintUserName có chức năng là in tên từ một mảng`
+```C
+ void PrintUserName(char* name)
+ {
+    printf("Hello My name is %s", name;)
+ }
+ int main() {
+    char* name = "Alice";
+    PrintUserName(name);
+    return 0;
+}
+```
+`Hàm Sumof trả về giá trị tổng của hai biến`
+```C
+uint8_t Sumof(uint8_t a,uint8_t b)
+{
+    return a + b;
+}
+ int main() {
+uint8_t a =2, b=5;
+ printf("tổng của a và b là %d ", Sumof(a,b));
+
+ }
+```
